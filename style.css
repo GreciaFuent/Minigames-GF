@@ -102,3 +102,114 @@ header ul li:hover {
     height: 2.5rem;
     font-size: 20px;
 }
+
+/* Estilos individuales */
+
+.modal {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000c7;
+}
+
+/* modal buscaminas */
+
+.modal_buscaminas {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000c7;
+}
+
+
+/* modal totito */
+
+.modal_totito {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000c7;
+}
+
+/* modal chistes */
+
+.modal_chistes {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000c7;
+}
+
+
+/* Estilos generales de los modales */
+
+.modal .btn {
+    height: 3rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.modal .btn svg{
+    float: right;
+    margin: 0rem 1.5rem;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.modal .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 40%;
+    float: left;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.modal .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.modal .content {
+    height: 70vh;
+    width: 45%;
+    float: right;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.modal .content h3{
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.modal .content p{
+    margin: 2rem;
+}
+
+.modal .content button{
+    height: 4rem;
+    width: 6rem;
+    margin: .7rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: yellow;
+    cursor: pointer;
+}
+
